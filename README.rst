@@ -1,21 +1,19 @@
-============
-assignment04
-============
+# Assignment 4: Validating data
 
+## Objectives
+In this assignment you will learn how to validate data in your
+automated interview.
 
-Add a short description here!
+## Instructions
+1. Start by reviewing the problem described below.
+1. When you are familiar with the requirements, start to plan how you will write the Python code.
+1. As you write the code be sure to test it frequently.
+1. Submit your complete assignment when you are sure you have implemented all of the requirements.
 
+### Basics
 
-Description
-===========
+questionid, sequencenumber, question,deletedflag
+10,1,”What is your email”, False
 
-A longer description of your project goes here...
-
-
-.. _pyscaffold-notes:
-
-Note
-====
-
-This project has been set up using PyScaffold 4.0.1. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+questionid,nameofpersoninterviewed,answer
+2,”Andy”,”akmiles@uw.edu”
