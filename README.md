@@ -28,18 +28,32 @@ questionid,nameofpersoninterviewed,answer
 In this weeks' assignment we are going to add validation and exception tracking code to last
 week's submission.
 
-Here are the steps you need to follow:
+Here are the steps you need to follow. We start with the questions file.
 
-1. Introduce validation to your logic that asks if the question needs to be deleted.
 1. Write new funtionality that will read through the questions file one record at a time.
-1. For each record, validat ethat all the data is in the ocrrect format. Display a message or messages that
-ask the user if they wish to correct any errors. Then capture corrected values as needed.
-1. As you find records marked for deletion, remove them from the file after asking
-the user if they are sure the record needs to be deleted. Then either remove or restore the record. Make
-sure there are adequate ocntrols to ensure the program does what the user needs.
+1. For each record, ask the user to validate that the question is correct. 
+1. "Correct" means the user is happpy with the wording.
+1. ALso, the question must be between 10 and 30 character long.
+3.Display a message that
+asks the user if they wish to correct the question. Then capture corrected value as needed.
+1. Also ask the user if the question is needed, or if it should be deleted. Validate the
+users repsonse and allow them to retry entering an answer.
+1. If the user wants to delete the question, ask if they are sure. Validate the user's input, 
+and then either delete or move on.
+1. Introduce validations using a similar pattern for at least 3 more questions.
 
+HINT: be sure to get the validations in the correct sequence, so the flow makes sense to the user. Also,
+you may wish to open the current file for reading, and create a new file, that gets "flipped"
+back to the original filename when done.
+
+Now to the answers file:
 
 1. Add code to make sure that the email address is provided and that it is in a valid
 email format. 
 1. Make sure that if the email fails any validation that the incorrect value is displayed, and
 that the user is asked to provide the email address again.
+1. Verify that answers have been provided to each question. If an answer is missing, reprompt
+the user and save the answer.
+
+HINT: take care to make sure that you identifty the answer that corresponds to its associated question.
+Give some thought as to how you can do this.
