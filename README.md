@@ -11,7 +11,7 @@ automated interview.
 1. Submit your complete assignment when you are sure you have implemented all of the requirements.
 
 ### Basics
-You will recall that from last weeks' assignment we have two csv files:
+You will recall that from last week's assignment we have two csv files:
 
 Firstly, `questions.csv`
 ```csv
@@ -26,7 +26,7 @@ Anubhaw,12,(555) 555 - 5555
 Anubhaw,10,arya0@uw.edu
 ```
 
-In this weeks' assignment we are going to modify our previous scripts to add additional complexity, including validation and exception tracking code.
+In this week's assignment we are going to modify our previous scripts to add additional complexity, including validation and exception tracking code.
 
 ### Part 1
 We'll start by modifying the first program (which printed out the questions and added a new one).
